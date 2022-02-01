@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="w-50 mx-auto my-3">
+                <h1 id="header" class="text-center">Todos</h1>
+                <div id="actions" class="text-center mb-3">
+                    <button class="btn btn-success add-btn" data-action='add'>add</button>
+                    <button class="btn btn-primary" data-action='search'>search</button>
+                </div>
+                <div id="form-wrapper" class="mb-3"></div>
+                <ul class="list-group" id="todos-list"></ul>
+            </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>

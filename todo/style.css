@@ -1,0 +1,7 @@
+.list-group-item > span,
+.list-group-item > img {
+    cursor: pointer;
+}
+html > body {
+    background-color: rgb(255, 157, 45);
+}
